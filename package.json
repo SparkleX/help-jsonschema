@@ -1,0 +1,22 @@
+{
+  "name": "help-jsonschema",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "gen": "json2ts -i schema/03/index.json -o 03.ts --cwd schema/03"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/SparkleX/help-jsonschema.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/SparkleX/help-jsonschema/issues"
+  },
+  "homepage": "https://github.com/SparkleX/help-jsonschema#readme",
+  "dependencies": {
+    "json-schema-to-typescript": "^9.1.1"
+  }
+}

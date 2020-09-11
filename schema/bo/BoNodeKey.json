@@ -1,0 +1,16 @@
+{
+    "type": "object",
+    "title" : "BoNodeKey",
+    "additionalProperties": false,
+    "properties": {
+        "boName": {
+            "type": "string"
+        },
+        "boNamespace": {
+            "type": "string"
+        },
+        "name": {
+            "type": "string"
+        }
+    }
+}

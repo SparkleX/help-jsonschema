@@ -1,0 +1,22 @@
+{
+	"title": "Bo Schema",
+	"type": "object",
+	"additionalProperties": false,
+	"properties": {
+		"name": {
+			"type": "string"
+		},
+		"namespace": {
+			"type": "string"
+		},
+		"serviceProvider": {
+            "$ref": "service-provider.json"
+		},
+		"nodes": {
+			"type": "object",
+			"additionalProperties": {
+				"$ref": "nodes.json"
+			}
+		}
+	}
+}

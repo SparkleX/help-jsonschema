@@ -1,0 +1,19 @@
+{
+	"files.associations": {
+		"*.student": "json"
+	},
+	"json.schemas": [
+		{
+			"fileMatch": ["*.01.json"],
+			"url": "./schema/01/object.json"
+		},
+		{
+			"fileMatch": ["*.02.json"],
+			"url": "./schema/02/array.json"
+		},
+		{
+			"fileMatch": ["*.03.json"],
+			"url": "./schema/03/index.json"
+		}
+	]
+}

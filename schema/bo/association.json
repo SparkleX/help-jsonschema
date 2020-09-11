@@ -1,0 +1,16 @@
+{
+    "type": "object",
+    "title": "Association",
+    "additionalProperties": false,
+    "properties": {
+        "type": {
+            "type": "string"
+        },
+        "transactionalTargetAssociationMultiplicityCode": {
+            "type": "string"
+        },
+        "targetBoNodeKey": {
+            "$ref": "BoNodeKey.json"
+        }
+    }
+}

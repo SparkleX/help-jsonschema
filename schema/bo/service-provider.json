@@ -1,0 +1,15 @@
+{
+	"type": "object",
+	"additionalProperties": false,
+	"properties": {
+		"filePath": {
+			"type": "string"
+		},
+		"exportPath": {
+			"type": "string"
+		},
+		"module": {
+			"type": "string"
+		}
+	}
+}

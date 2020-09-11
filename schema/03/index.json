@@ -1,0 +1,35 @@
+{
+    "$schema": "http://json-schema.org/draft/2019-09/schema#",
+    "title": "Example",
+	"type": "object",
+	"properties": {
+        "id": {
+            "type": "number"
+        },
+		"data": {
+            "$ref" : "../02/array.json"
+        },
+        "struct" : {
+            "type": "object",
+            "additionalProperties": false,
+            "properties": {
+                "a": "string"
+            }
+        },
+        "address":{
+            "$ref": "#/definitions/address"
+        }
+    },
+
+    "definitions": {
+        "address": {
+            "type": "object",
+            "additionalProperties": false,
+            "properties": {
+                "street_address": { "type": "string" },
+                "city":           { "type": "string" },
+                "state":          { "type": "string" }
+            }
+        }
+    }
+}

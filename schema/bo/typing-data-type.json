@@ -1,0 +1,16 @@
+{
+    "title": "Typing Data Type",
+    "type": "object",
+    "additionalProperties": false,
+    "properties": {
+        "name": {
+            "type": "string"
+        },
+        "namespace": {
+            "type": "string"
+        },
+        "length": {
+            "type": "number"
+        }
+    }
+}

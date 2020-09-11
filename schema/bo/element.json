@@ -1,0 +1,19 @@
+{
+    "title": "Element",
+    "type": "object",
+    "additionalProperties": false,
+    "properties": {
+        "persistencyTableName": {
+            "type": "string"
+        },
+        "typingDataType": {
+            "$ref": "typing-data-type.json"
+        },
+        "alternativeKey": {
+            "type": "boolean"
+        },
+        "nodeIDValuation": {
+            "type": "boolean"
+        }
+    }
+}
